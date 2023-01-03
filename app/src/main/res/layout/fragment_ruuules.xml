@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baaaca"
+    tools:context=".frrrag22.RuuulesFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_95gttg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_50fgrr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vert_05gt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vert_95gtgtt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_05gt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+
+    <ImageView
+        android:id="@+id/img_enemy_logo"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:padding="12dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/logaaa"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95gtgtt"
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_05gt"
+        app:layout_constraintTop_toBottomOf="@id/tv_enemy_name" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_enemy_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/montserrat_black"
+        android:gravity="center"
+        android:lines="1"
+        android:text="@string/app_name"
+        android:textAllCaps="true"
+        android:textColor="#F6CACA"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95gtgtt"
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_05gt"
+        app:layout_constraintTop_toTopOf="@id/guideline_hor_05gt" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/btn_play_gameeee"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95gtgtt"
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_05gt"
+        app:layout_constraintTop_toBottomOf="@id/img_enemy_logo">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_about_enemy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/open_sans_bold"
+            android:gravity="center"
+            android:text="The Great Sphinx of Giza is a giant 4,500-year-old limestone statue situated near the Great Pyramid in Giza, Egypt. Measuring 240 feet (73 meters) long and 66 feet (20 meters) high, the Great Sphinx is one of the world’s largest monuments. It is also one of the most recognizable relics of the ancient Egyptians, though the origins and history of the colossal structure are still debated. A sphinx (or sphynx) is a creature with the body of a lion and the head of a human, with some variations. It is a prominent mythological figure in Egyptian, Asian, and Greek mythology. In ancient Egypt, the sphinx was a spiritual guardian and most often depicted as a male with a pharaoh headdress—as is the Great Sphinx—and figures of the creatures were often included in tomb and temple complexes. For instance, the so-called Sphinx Alley in Upper Egypt is a two-mile avenue that connects the temples of Luxor and Karnak and is lined with sphinx statues. From Egypt, the sphinx imported to both Asia and Greece around 15th to 16th century B.C. Compared with the Egyptian model, the Asian sphinx had eagle wings, was frequently female, and often sat on its haunches with one paw raised in depictions. Hieroglyphic texts suggest Khafre’s father, Pharaoh Khufu, built the Great Pyramid, the oldest and largest of the three pyramids in Giza. When he became Pharaoh, Khafre constructed his own pyramid next to his father’s; though Khafre’s pyramid is 10 feet shorter than the Great Pyramid, it is surrounded by a more elaborate complex that includes the Great Sphinx and other statues. Given the organization of the pyramids and the Sphinx, some scholars believe there may have been a celestial purpose to the Great Sphinx and temple complex, that is, to resurrect the soul of the pharaoh (Khafre) by channeling the power of the sun and other gods. Additionally, Mariette discovered remnants of a causeway (processional road) that connect the Valley Temple to a mortuary temple next to Khafre’s pyramid. In the early 1900s, French archaeologist Emile Baraize dug up another building (the Sphinx Temple) directly in front of the Sphinx that’s similar in design to the Valley Temple. Researchers estimate that it would have taken 100 people 3 years to carve the Great Sphinx out of a single mass of limestone. But there’s some evidence that these workers may have suddenly quit before fully finishing the sphinx and temple complex, such as partially quarried bedrock and remnants of a workman’s lunch and tool kit."
+            android:textColor="#F8D4A9"
+            android:textSize="12sp" />
+
+    </ScrollView>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_play_gameeee"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserrat_black"
+        android:text="understand"
+        android:textColor="#F6CACA"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_hor_95gttg"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95gtgtt"
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_05gt" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

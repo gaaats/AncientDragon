@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navavava_gaaama"
+    app:startDestination="@id/enterotoFragment">
+
+    <fragment
+        android:id="@+id/enterotoFragment"
+        android:name="com.skgames.trafficriders.frrragagag.EnterotoFragment"
+        android:label="fragment_enteroto"
+        tools:layout="@layout/fragment_enteroto" >
+        <action
+            android:id="@+id/action_enterotoFragment_to_ruuulesFragment"
+            app:destination="@id/ruuulesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ruuulesFragment"
+        android:name="com.skgames.trafficriders.frrrag22.RuuulesFragment"
+        android:label="fragment_ruuules"
+        tools:layout="@layout/fragment_ruuules" >
+        <action
+            android:id="@+id/action_ruuulesFragment_to_choooseDiffFragment"
+            app:destination="@id/choooseDiffFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/choooseDiffFragment"
+        android:name="com.skgames.trafficriders.frrragagag.ChoooseDiffFragment"
+        android:label="fragment_chooose_diff"
+        tools:layout="@layout/fragment_chooose_diff" >
+        <action
+            android:id="@+id/action_choooseDiffFragment_to_plaaayGaaameFragment"
+            app:destination="@id/plaaayGaaameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/plaaayGaaameFragment"
+        android:name="com.skgames.trafficriders.frrrag22.PlaaayGaaameFragment"
+        android:label="fragment_plaaay_gaaame"
+        tools:layout="@layout/fragment_plaaay_gaaame" >
+        <action
+            android:id="@+id/action_plaaayGaaameFragment_to_restartttttttFragment"
+            app:destination="@id/restartttttttFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/restartttttttFragment"
+        android:name="com.skgames.trafficriders.RestartttttttFragment"
+        android:label="fragment_restarttttttt"
+        tools:layout="@layout/fragment_restarttttttt" >
+        <action
+            android:id="@+id/action_restartttttttFragment_to_choooseDiffFragment"
+            app:destination="@id/choooseDiffFragment" />
+    </fragment>
+</navigation>
